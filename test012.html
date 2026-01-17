@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Title</title>
+  <meta charset="UTF-8">
+  <!-- Fix (Best Practices / Accessibility): Ensure correct character encoding -->
+
+  <title>Test 012</title>
+  <!-- Fix (SEO): Descriptive and meaningful page title -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Put your description here.">
+  <!-- Fix (Performance): Required for mobile responsiveness -->
+
+  <meta name="description" content="Test 012 page optimized for Google Lighthouse performance, accessibility, and SEO.">
+  <!-- Fix (SEO): Proper meta description for search engines -->
 </head>
 
 <body>
-  <img src="img\wallpaper.jpg">
-</body>
 
+  <main>
+    <!-- Fix (Accessibility): Added main landmark for screen readers -->
+
+    <img 
+      src="img/wallpaper.jpg"
+      alt="Decorative wallpaper background"
+      loading="lazy">
+    <!-- 
+      Fix 1 (Accessibility): Added alt text for image
+      Fix 2 (Performance): Added loading="lazy" to defer offscreen image loading
+      Fix 3 (Best Practices): Corrected file path (use / not \)
+    -->
+    
+  </main>
+
+</body>
 </html>
